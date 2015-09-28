@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/sqlite.jar"/>
+	<classpathentry kind="lib" path="lib/postgresql-9.0-801.jdbc4.jar"/>
+	<classpathentry kind="lib" path="lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="lib/jaxen-full.jar"/>
+	<classpathentry kind="lib" path="lib/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="lib/asm.jar"/>
+	<classpathentry kind="lib" path="lib/cglib-2.1.3.jar"/>
+	<classpathentry kind="lib" path="lib/commons-beanutils-1.7.0.jar"/>
+	<classpathentry kind="lib" path="lib/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons-lang.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons-pool-1.5.3.jar"/>
+	<classpathentry kind="lib" path="lib/hibernate3.jar"/>
+	<classpathentry kind="lib" path="lib/jai_codec-1.1.3.jar"/>
+	<classpathentry kind="lib" path="lib/jai_core-1.1.3.jar"/>
+	<classpathentry kind="lib" path="lib/jai_imageio-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/jdom-1.0.jar"/>
+	<classpathentry kind="lib" path="lib/jna_3.3.0.jar"/>
+	<classpathentry kind="lib" path="lib/jsr-275-1.0-beta-2.jar"/>
+	<classpathentry kind="lib" path="lib/jta.jar"/>
+	<classpathentry kind="lib" path="lib/jts-1.10.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="lib/saxpath.jar"/>
+	<classpathentry kind="lib" path="lib/vecmath-1.3.2.jar"/>
+	<classpathentry kind="lib" path="lib/xstream-1.3.1.jar"/>
+	<classpathentry kind="lib" path="lib/sqlitejdbc-v053.jar"/>
+	<classpathentry kind="lib" path="lib/Tele_2013_8_29.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

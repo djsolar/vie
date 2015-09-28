@@ -1,0 +1,13 @@
+org.postgresql.util.PSQLException: ERROR: relation "laneinfo" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2102)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1835)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:257)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:500)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:374)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:366)
+	at com.sunmap.shpdata.tools.util.JdbcUtil.executeSql(JdbcUtil.java:497)
+	at com.sunmap.shpdata.tools.daoimpl.shpdaoimpl.ShpTableDaoImpl.createTab(ShpTableDaoImpl.java:881)
+	at com.sunmap.shpdata.tools.daoimpl.shpdaoimpl.ShpTableDaoImpl.createTable1(ShpTableDaoImpl.java:726)
+	at com.sunmap.shpdata.tools.main.ImportMain.shpDataImport(ImportMain.java:82)
+	at com.sunmap.shpdata.tools.main.ImportMain.createAndImport(ImportMain.java:55)
+	at form.Form$11.run(Form.java:535)
